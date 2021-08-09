@@ -92,7 +92,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CWIMPDZI
 
 [Document4]
-DocumentPath=Deck_PCBV1.PcbDoc
+DocumentPath=Deck_PCBV2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -109,6 +109,23 @@ GenerateClassCluster=0
 DocumentUniqueId=PJGWJPNK
 
 [Document5]
+DocumentPath=Deck_PCBV1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PJGWJPNK
+
+[Document6]
 DocumentPath=Deck_PcbLibV3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -129,6 +146,10 @@ DocumentUniqueId=UXBMQQBB
 DocumentPath=Deck_SchlibV2.cmp
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Stream_Deck\Design Rule Check - Deck_PCBV1.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -138,6 +159,20 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_SignalIntegritySimulation]
+SignalIntegrityInitialised=-1
+TrackImpedance=100
+TrackLength=20000000
+UseManhattan=-1
+UseSupplyNetsRules=-1
+SupplyNetsCount=0
+UseStimulusRules=-1
+StimKind=1
+StimLevel=0
+StimStartTime=1E-8
+StimStopTime=6E-8
+StimPeriodTime=1E-7
 
 [OutputGroup1]
 Name=Netlist Outputs
